@@ -1,0 +1,34 @@
+﻿<Window x:Class="Teste01.segunda_tela"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teste01"
+        mc:Ignorable="d"
+        Title="segunda_tela" Height="377" Width="809">
+    <Grid Margin="0,0,10,-6">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Label Content="Lacoste" HorizontalAlignment="Center" Margin="0,73,0,0" VerticalAlignment="Top" FontFamily="Frank Ruehl CLM BoldOblique" FontSize="36" Height="59" Width="130"/>
+        <Image HorizontalAlignment="Right" Height="82" Margin="0,20,359,0" VerticalAlignment="Top" Width="84" Source="/7067e2a36888b59fdc990c38980e066d.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/7067e2a36888b59fdc990c38980e066d.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="bt_camisetas" Content="Camisetas" HorizontalAlignment="Left" Margin="140,150,0,0" VerticalAlignment="Top" FontFamily="Frank Ruehl CLM BoldOblique" FontSize="24" Height="47" Width="203" Background="#FF13FF00" RenderTransformOrigin="0.5,0.5" Cursor="" Click="bt_camisetas_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="bt_acessorios" Content="Acessorios" HorizontalAlignment="Left" Margin="453,217,0,0" VerticalAlignment="Top" FontFamily="Frank Ruehl CLM BoldOblique" FontSize="24" Height="47" Width="202" Background="#FF13FF00" Click="bt_acessorios_Click"/>
+        <Button x:Name="bt_calcas" Content="Calças " HorizontalAlignment="Left" Margin="453,150,0,0" VerticalAlignment="Top" FontFamily="Frank Ruehl CLM BoldOblique" FontSize="24" Height="47" Width="203" Background="#FF13FF00" Click="bt_calcas_Click"/>
+        <Button x:Name="bt_tenis" Content="Tênis" HorizontalAlignment="Left" Margin="140,217,0,0" VerticalAlignment="Top" FontFamily="Frank Ruehl CLM BoldOblique" FontSize="24" Height="46" Width="203" Background="#FF13FF00" Click="bt_tenis_Click"/>
+
+    </Grid>
+</Window>

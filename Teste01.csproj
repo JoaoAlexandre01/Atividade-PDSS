@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="536-5365319_lacoste-vector-hd-png-download.png" />
+    <None Remove="7067e2a36888b59fdc990c38980e066d.png" />
+    <None Remove="99-994240_lacoste-logo-pngfree-racket-set-pour-femme-by.png" />
+    <None Remove="b2b0b8c2b4669994d87857569d4d9c0d.png" />
+    <None Remove="Icone-usuario-Png-1024x1024.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="536-5365319_lacoste-vector-hd-png-download.png" />
+    <Resource Include="7067e2a36888b59fdc990c38980e066d.png" />
+    <Resource Include="99-994240_lacoste-logo-pngfree-racket-set-pour-femme-by.png" />
+    <Resource Include="b2b0b8c2b4669994d87857569d4d9c0d.png" />
+    <Resource Include="Icone-usuario-Png-1024x1024.png" />
+  </ItemGroup>
+
+</Project>
